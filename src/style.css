@@ -1,1 +1,56 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+p {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  text-align: center;
+  background: yellowgreen;
+}
+
+header {
+  width: 100%;
+  margin: 20px 40px;
+}
+
+body {
+  background: #0e7e12;
+}
+.resultadoOrdenado {
+  margin-top: 100px;
+  width: 100%;
+}
+.contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.carta {
+  margin-top: 30px;
+  padding: 5px;
+  color: #ff0000;
+  border-radius: 15px;
+  width: 80px;
+  border: solid 2px #000000;
+  background: #f3f3f3;
+  position: relative;
+}
+
+/* A este le cambiamos el color */
+.icono1,
+.icono2 {
+  font-size: 30px;
+}
+.num {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.icono2 {
+  width: 100%;
+  transform: rotate(180deg);
+}

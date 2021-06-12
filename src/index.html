@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
+    <title>Cartas</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
     <link rel="shortcut icon" href="./4geeks.ico" />
-  </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+</head>
+
+<body>
+    <div class="topper">
+        <header>
+            <input id="cantidadDeCartasInput" type="text" />
+            <button id="generar">Cartas</button>
+            <button id="ordenarCartas">Ordenar</button>
+            <select id="ordenadorSeleID" class="ordenadorS" name="ordenadorS">
+                <option value="">Select…</option>
+                <option value="Ordenar">Ordenar</option>
+            </select>
+        </header>
     </div>
-  </body>
+    <div class="contenedorTotal">
+     
+        <div id="contenedorAdd" class="contenedor">
+            
+
+        </div>
+    </div>
+    </div>
+
+ 
+    <div class="resultadoOrdenado" id="OrdenadoDiv">
+        <h2>Cartas ordenadas:</h2>
+        <div id="CartasOrdenadas" class="contenedor">
+         
+        </div>
+    </div>
+</body>
+
 </html>
